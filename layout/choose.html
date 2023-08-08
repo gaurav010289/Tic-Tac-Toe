@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modes</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <style>
+        .write{
+            font-size: 140px;
+            color: black;
+            font-family: f1;
+        }
+        @font-face {
+            font-family: f1;
+            src: url(../font/PasstynSans.otf);
+        }
+        .center{
+            position:fixed;
+            top: 50%;
+            left: 50%;
+            width:75em;
+            height:18em;
+            margin-top: -5em; /*set to a negative number 1/2 of your height*/
+            margin-left: -26em; /*set to a negative number 1/2 of your width*/
+        }
+        .cardDesign{
+            width: 22rem; 
+            background-color: #E9FFFF; 
+            border: 1px solid #E9FFFF;
+            box-shadow: 5px 1px 5px 1px black;
+        }
+    </style>
+</head>
+<body style="background-image: url('../images/ticbg4.jpeg');">
+    <h1 style = "font-family: f1; margin-top: 40px; margin-left: 430px; font-size: 100px;">Choose Mode</h1>
+    <div class = "container center">
+        <div class = "row">
+            <div class = "col-md-5">
+                <div class="card cardDesign">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">3 X 3</h5>
+                      <p class="card-text">This is traditional Tic Tac Toe in which player having his keys in three consecutive cells of rows or columns of diagonal will win.</p>
+                      <a href="Tic_Tac_Toe1.html" class="btn btn-primary">Play</a>
+                    </div>
+                  </div>
+            </div>
+            <div class = "col-md-6">
+                <div class="card cardDesign" style="width: 22rem;">
+                    <img src="..." class="card-img-top" alt="...">
+                    <div class="card-body">
+                      <h5 class="card-title">4 X 4</h5>
+                      <p class="card-text">This is modified version of Tic Tac Toe in which grid is of size 4 X 4 providing more fun to players unlocking more tricks and brainstorm.</p>
+                      <a href="Tic_Tac_Toe2.html" class="btn btn-primary">Play</a>
+                    </div>
+                  </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
